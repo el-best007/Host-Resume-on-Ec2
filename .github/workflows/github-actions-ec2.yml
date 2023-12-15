@@ -14,7 +14,6 @@ jobs:
     steps:
       - name: Checkout the files
         id: ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true
-        uses: actions/checkout@v16
 
       - name: Deploy to Server 1
         uses: easingthemes/ssh-deploy@main
